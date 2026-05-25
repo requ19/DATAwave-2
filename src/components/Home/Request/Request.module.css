@@ -1,0 +1,98 @@
+.request .container {
+  margin: auto;
+  max-width: 90.2%;
+}
+.request__wrapper {
+  background-image: url("../../../images//Home/Request/capy.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: #1B374F;
+  border-radius: 20px;
+  padding: 45px 45px 55px 45px;
+}
+.request__title {
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 500;
+}
+.request__fio {
+  background-color: #fff;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 28px;
+  font-size: 1rem;
+}
+.request__tel {
+  display: block;
+  margin-top: 20px;
+  background-color: #fff;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 28px;
+  font-size: 1rem;
+}
+.request__adress_wrapper {
+  margin-top: 20px;
+}
+.request__adress {
+  background-color: #fff;
+  width: 39%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 28px;
+  font-size: 1rem;
+  margin-right: 15px;
+}
+.request__email {
+  background-color: #fff;
+  width: 10%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 28px;
+  font-size: 1rem;
+}
+.request__tariff {
+  background-color: #fff;
+  width: 50%;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 20px 28px;
+  font-size: 1rem;
+  margin-top: 20px;
+}
+.request__btn_wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.request__chekbox {
+  width: 20px;
+  height: 20px;
+  border: none;
+}
+.request__chekbox_text {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.request__btn {
+  background: #FC3B3E;
+  width: 295px;
+  height: 45px;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-size: 1.12rem;
+  transition: 0.3s ease-out;
+}
+.request__btn:hover {
+  background: #e03336;
+}/*# sourceMappingURL=Request.module.css.map */

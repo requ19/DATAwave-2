@@ -1,0 +1,41 @@
+.worth {
+    padding: 90px 0 55px;
+    .container {
+        width: clamp(320px, 90.2%, 2000px);
+        margin: auto;
+    }
+    &__title {
+        font-size: 2rem;
+        font-weight: 500;
+        color: #000;
+        text-align: center;
+    }
+    &__subtitle {
+        font-size: 1rem;
+        font-weight: 500;
+        color: #7A8698;
+        text-align: center;
+        margin-top: 10px;
+    }
+    &__cards {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 55px;
+    }
+    &__card {
+        width: 400px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        img, p {
+            width: 100%;
+        }
+        p {
+            margin-top: 35px;
+            color: #7A8698;
+            font-size: 1rem;
+        }
+    }
+}

@@ -1,0 +1,199 @@
+.tariffs .container {
+  margin: auto;
+  max-width: 90.2%;
+}
+.tariffs__inet_title {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 35px;
+}
+.tariffs__inettv_title {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 60px;
+}
+.tariffs .custom_request {
+  margin-top: 58px;
+}
+.tariffs .custom_subheder {
+  background: #F9F9F9;
+}
+.tariffs .red {
+  background: #FC3B3E;
+}
+.tariffs .yellow {
+  background: #FFC501;
+}
+.tariffs .blue {
+  background: #28384E;
+}
+.tariffs-btn {
+  display: flex;
+  cursor: pointer;
+}
+.tariffs .inet {
+  font-size: 20px;
+  font-weight: 500;
+  color: #7A8698;
+  border-bottom: 1px solid #7A8698;
+  padding: 3px;
+}
+.tariffs .inetTV {
+  font-size: 20px;
+  font-weight: 500;
+  color: #7A8698;
+  border-bottom: 1px solid #7A8698;
+  padding: 3px;
+}
+.tariffs .active {
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+.tariffs .cards {
+  display: flex;
+  margin-top: 23px;
+  justify-content: space-evenly;
+}
+.tariffs .cards .card {
+  width: 415px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 5px 0px rgb(112, 112, 112);
+}
+.tariffs .cards .card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 74px;
+  border-radius: 5px 5px 0 0;
+  color: #fff;
+  font-size: 26px;
+  font-weight: normal;
+}
+.tariffs .cards .card-speed {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 22px 0 30px 0;
+}
+.tariffs .cards .card-speed div {
+  display: flex;
+  align-items: center;
+}
+.tariffs .cards .card-speed div span {
+  font-weight: 500;
+  font-size: 29px;
+}
+.tariffs .cards .card-router {
+  border-top: 0.5px solid #E1E7EF;
+  border-bottom: 0.5px solid #E1E7EF;
+  padding: 25px 0 40px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+}
+.tariffs .cards .card-router div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+}
+.tariffs .cards .card-router div h4 {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 18px;
+}
+.tariffs .cards .card-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 27px 0 30px 0;
+}
+.tariffs .cards .card-price button {
+  border-radius: 15px;
+  width: 200px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+.tariffs .cards .card-price div {
+  color: #000;
+  font-size: 35px;
+  font-weight: 500;
+}
+.tariffs .cards .card-price div span {
+  color: #7A8698;
+  font-size: 16px;
+}
+.tariffs .additional {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  gap: 30px;
+}
+.tariffs .additional__inet {
+  position: relative;
+  width: 640px;
+  height: 85px;
+  display: flex;
+  gap: 28px;
+  border: 0.5px solid #D9D9D9;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+}
+.tariffs .additional__inet div div {
+  font-size: 15px;
+  font-weight: 500;
+}
+.tariffs .additional__inet div p {
+  color: #7A8698;
+}
+.tariffs .additional__inet img {
+  width: 35px;
+}
+.tariffs .additional__inet .arrow {
+  width: 15px;
+  position: absolute;
+  right: 33px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.tariffs .additional__cinema {
+  width: 640px;
+  height: 85px;
+  display: flex;
+  gap: 28px;
+  padding: 25px;
+  border: 0.5px solid #D9D9D9;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+.tariffs .additional__cinema div div {
+  font-size: 15px;
+  font-weight: 500;
+}
+.tariffs .additional__cinema div p {
+  color: #7A8698;
+}
+.tariffs .additional__cinema img {
+  width: 65px;
+}
+.tariffs .additional__cinema .arrow {
+  width: 15px;
+  position: absolute;
+  right: 33px;
+  top: 50%;
+  transform: translateY(-50%);
+}/*# sourceMappingURL=Tariffs.module.css.map */

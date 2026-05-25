@@ -1,0 +1,117 @@
+.equipment {
+    padding: 58px 0 130px 0;
+    .container {
+        margin: auto;
+        max-width: 90.2%;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background: #ff3b3b;
+        color: white;
+        padding: 30px;
+        font-size: 18px;
+        border-radius: 10px 10px 0 0;
+        span {
+            font-size: 2.5rem;
+        }
+        .columns {
+          display: flex;
+          gap: 70px;
+          span {
+            font-size: 1.5rem;
+          }
+        }
+      }
+      
+      
+      .row {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: white;
+        padding: 30px;
+        border-radius: 10px;
+        margin-top: 60px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      
+      .name {
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        font-weight: bold;
+        position: relative;
+        .infoIcon {
+          display: flex;
+          align-items: center;
+          margin-left: 30px;
+          cursor: pointer;
+        }
+        &:hover .card{
+            transform: scale(1);
+            transition: .1s ease-in;
+        }
+      }
+      .card {
+        height: 17rem;
+        width: 42rem;
+        background: #fff;
+        padding: 27px 0  0 70px;
+        border-radius: 10px;
+        border: 1px solid #D9D9D9;
+        flex-direction: column;
+        justify-content: space-around;
+        position: absolute;
+        top: 50px;
+        z-index: 1;
+        display: flex;
+        transform: scale(0);
+        img {
+          position: absolute;
+          right: 0;
+        }
+        .wrapper_desc {
+          display: flex;
+          align-items: center;
+          position: relative;
+          span {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: red;
+            display: block;
+            position: absolute;
+            top: 20%;
+            left: -30px;
+          }
+          div {
+            font-size: 1rem;
+            color: #000;
+            width: 70%;
+            font-weight: 500;
+          }
+        }
+        
+        p {
+          font-size: 1rem;
+          font-weight: 500;
+          padding: 0  0  025px ;
+          width: 60%;
+          color: #000;
+          
+        }
+      }
+    
+      .info {
+        display: flex;
+        
+      }
+      
+      .price {
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-left: 2px solid #E1E7EF;
+        padding: 20px 25px;
+      }
+}

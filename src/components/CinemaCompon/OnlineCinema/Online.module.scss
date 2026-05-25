@@ -1,0 +1,47 @@
+.online {
+    padding: 60px 0 170px;
+    .container {
+        width: clamp(320px, 90.2%, 2000px);
+        margin: auto;
+    }
+    &__title {
+        color: #000;
+        font-size: 1.25rem;
+        font-weight: 500;
+        text-align: center;
+    }
+    &__btns {
+        display: flex;
+        justify-content: center;
+        gap: 22px;
+        margin-top: 35px;
+    }
+    &__btn {
+        width: 127px;
+        height: 38px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 20px;
+        background: #28384E;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    &__btn_active {
+        background: linear-gradient(to right, #FC3B3E, #FF2150);
+    }
+    &__cards {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12px;
+        gap: 35px;
+    }
+    &__card {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        // margin-top: 35px;
+    }
+}

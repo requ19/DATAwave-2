@@ -1,0 +1,46 @@
+.online {
+  padding: 60px 0 170px;
+}
+.online .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.online__title {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  text-align: center;
+}
+.online__btns {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-top: 35px;
+}
+.online__btn {
+  width: 127px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 20px;
+  background: #28384E;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.online__btn_active {
+  background: linear-gradient(to right, #FC3B3E, #FF2150);
+}
+.online__cards {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 35px;
+}
+.online__card {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}/*# sourceMappingURL=Online.module.css.map */

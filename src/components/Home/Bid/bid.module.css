@@ -1,0 +1,115 @@
+.bid {
+  font-family: "Stapel", sans-serif;
+}
+.bid .container {
+  margin: 0 auto;
+  max-width: 90.2%;
+}
+.bid .wrapper {
+  background: url("../../../images//bg/bg-section3.svg") no-repeat center center;
+  height: 100%;
+  max-width: 100%;
+  background-size: cover;
+  border-radius: 5px;
+  padding: 35px 80px;
+}
+.bid .wrapper .title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+}
+.bid .wrapper .text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 17px;
+}
+.bid .wrapper .btn {
+  width: 145px;
+  height: 52px;
+  background: #FC3B3E;
+  border-radius: 10px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 16px;
+}
+.bid .connect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bid .connect .earth {
+  width: 670px;
+}
+.bid .connect .connect__card {
+  width: 900px;
+  height: 385px;
+  background: #F8C006;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 46px 34px 45px 55px;
+}
+.bid .connect .connect__card .arrow {
+  position: absolute;
+  top: 50%;
+  right: 37px;
+  transform: translateY(-50%);
+}
+.bid .connect .connect__card .connect__title {
+  font-size: 32px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+}
+.bid .connect .connect__card .connect__relocate {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 95px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 33px;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.bid .connect .connect__card .connect__relocate div {
+  margin-bottom: 8px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bid .connect .connect__card .connect__relocate p {
+  color: #7A8698;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bid .connect .connect__card .connect__promotion {
+  background: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  width: 100%;
+  height: 95px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 33px;
+  position: relative;
+  cursor: pointer;
+}
+.bid .connect .connect__card .connect__promotion div {
+  margin-bottom: 8px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+.bid .connect .connect__card .connect__promotion p {
+  color: #7A8698;
+  font-size: 15px;
+  font-weight: 700;
+}/*# sourceMappingURL=bid.module.css.map */

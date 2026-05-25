@@ -1,0 +1,130 @@
+@charset "UTF-8";
+.header {
+  background: rgb(1, 1, 1);
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.header .burger-btn {
+  margin-left: 20px;
+  position: absolute;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header .burger-btn span {
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+  background: #ffffff;
+}
+.header .burger-btn.active span {
+  transform: rotate(45deg);
+}
+.header .burger-btn.active::before {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+.header .burger-btn.active::after {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+.header .burger-btn::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #ffffff;
+  border-radius: 2px;
+  top: 0px;
+  transition: 0.3s;
+}
+.header .burger-btn::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background: #ffffff;
+  bottom: 0px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.header .burger-btn {
+  display: none;
+}
+.header .navigation {
+  display: flex;
+}
+.header {
+  /* 4K и большие десктопы */
+}
+@media (min-width: 2560px) {
+  .header {
+    /* Стили для разрешений от 2560px и выше */
+  }
+}
+.header {
+  /* Широкие мониторы и десктопы */
+}
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .header {
+    /* Стили для разрешений 1920px - 2559px */
+  }
+}
+.header {
+  /* Обычные десктопы */
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .header {
+    /* Стили для разрешений 1280px - 1919px */
+  }
+}
+.header {
+  /* Переход на крупные планшеты */
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .header {
+    /* Стили для разрешений 1024px - 1279px */
+  }
+}
+.header {
+  /* Портретная ориентация планшетов и небольшие ноутбуки */
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .header {
+    /* Стили для разрешений 768px - 1023px */
+  }
+}
+.header {
+  /* Большие смартфоны в альбомной ориентации */
+}
+@media (max-width: 850px) {
+  .header .burger-btn {
+    display: flex;
+  }
+  .header .navigation {
+    display: none;
+  }
+}
+.header {
+  /* Средние смартфоны и крупные телефоны */
+}
+@media (min-width: 480px) and (max-width: 575px) {
+  .header {
+    /* Стили для разрешений 480px - 575px */
+  }
+}
+.header {
+  /* Маленькие смартфоны и небольшие экраны */
+}
+@media (max-width: 479px) {
+  .header {
+    /* Стили для разрешений до 479px */
+  }
+}/*# sourceMappingURL=Header.module.css.map */

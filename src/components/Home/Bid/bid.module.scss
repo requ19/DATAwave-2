@@ -1,0 +1,119 @@
+.bid {
+    font-family: 'Stapel', sans-serif;
+    .container {
+        margin: 0 auto;
+        max-width: 90.2%;
+    }
+    .wrapper {
+        background: url('../../../images//bg/bg-section3.svg') no-repeat center center;
+        height: 100%;
+        max-width: 100%;
+        background-size: cover;
+        border-radius: 5px;
+        padding: 35px 80px;
+        .title {
+            font-size: 32px;
+            font-weight: 500;
+            color: #fff;
+        }
+        .text {
+            font-size: 20px;
+            font-weight: 500;
+            color: #fff;
+            margin-top: 17px;
+        }
+        .btn {
+            width: 145px;
+            height: 52px;
+            background: #FC3B3E;
+            border-radius: 10px;
+            border: none;
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+            margin-top: 16px;
+        }
+    }
+    .connect {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // gap: 70px;
+        .earth {
+            width: 670px;
+        }
+        .connect__card {
+            width: 900px;
+            height: 385px;
+            background: #F8C006;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            padding: 46px 34px 45px 55px; 
+            .arrow {
+                position: absolute;
+                top: 50%;
+                right: 37px;
+                transform: translateY(-50%);
+            }
+            .connect__title {
+                font-size: 32px;
+                font-weight: 500;
+                color: #000;
+                margin-bottom: 10px;
+            }   
+            .connect__relocate {
+                background: #fff;
+                border: none;
+                border-radius: 10px;
+                display: flex;
+                width: 100%;
+                height: 95px;
+                flex-direction: column;
+                justify-content: center;
+                padding: 33px;
+                margin-bottom: 10px;
+                position: relative;
+                cursor: pointer;
+                div {
+                    margin-bottom: 8px;
+                    color: #000;
+                    font-size: 15px;
+                    font-weight: 700;
+
+                }
+                p {
+                    color: #7A8698;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+            .connect__promotion {
+                background: #fff;
+                border: none;
+                border-radius: 10px;
+                display: flex;
+                width: 100%;
+                height: 95px;
+                flex-direction: column;
+                justify-content: center;
+                padding: 33px;
+                position: relative;
+                cursor: pointer;
+
+                div {
+                    margin-bottom: 8px;
+                    color: #000;
+                    font-size: 15px;
+                    font-weight: 700;
+
+                }
+                p {
+                    color: #7A8698;
+                    font-size: 15px;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,55 @@
+.aboutcompany .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.aboutcompany__wrapper {
+  background-image: url("../../../images//AboutCompon/AboutCompany/bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 50vh;
+}
+.aboutcompany__title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  color: #fff;
+  font-weight: 500;
+  height: 50vh;
+}
+.aboutcompany .features {
+  display: flex;
+  max-width: 1180px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: -1px 2px 5px 0px rgb(112, 112, 112);
+  border-radius: 0px 0px 5px 5px;
+  flex-wrap: wrap;
+}
+.aboutcompany .features-btn {
+  display: flex;
+  max-height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 27px 34px;
+  gap: 7px;
+  font-family: "Stapel", sans-serif;
+  font-size: 15px;
+}
+.aboutcompany .features-btn p {
+  color: #7A8698;
+  font-size: 12px;
+}
+.aboutcompany .features .btn1 {
+  border-right: 0.5px solid #E1E7EF;
+}
+.aboutcompany .features .btn2 {
+  border-right: 0.5px solid #E1E7EF;
+}
+.aboutcompany .features .btn3 {
+  border-right: 0.5px solid #E1E7EF;
+}/*# sourceMappingURL=AboutCompany.module.css.map */

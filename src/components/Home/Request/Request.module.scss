@@ -1,0 +1,101 @@
+.request {
+    .container {
+        margin: auto;
+        max-width: 90.2%;
+    }
+    &__wrapper {
+        background-image: url('../../../images//Home/Request/capy.png');
+        background-repeat: no-repeat;
+        background-position: right;
+        background-color: #1B374F;
+        border-radius: 20px;
+        padding: 45px 45px 55px 45px;
+    }
+    &__title {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+    }
+    &__fio {
+        background-color: #fff;
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding: 20px 28px;
+        font-size: 1rem;
+    }
+    &__tel {
+        display: block;
+        margin-top: 20px;
+        background-color: #fff;
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding: 20px 28px;
+        font-size: 1rem;
+    }
+    &__adress_wrapper {
+        margin-top: 20px;
+    }
+    &__adress {
+        background-color: #fff;
+        width: 39%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding: 20px 28px;
+        font-size: 1rem;
+        margin-right: 15px;
+    }
+    &__email {
+        background-color: #fff;
+        width: 10%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding: 20px 28px;
+        font-size: 1rem;
+    }
+    &__tariff {
+        background-color: #fff;
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        border: none;
+        padding: 20px 28px;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    &__btn_wrapper {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+    &__chekbox {
+        width: 20px;
+        height: 20px;
+        border: none;
+    }
+    &__chekbox_text {
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 200;
+    }
+    &__btn {
+        background: #FC3B3E;
+        width: 295px;
+        height: 45px;
+        border-radius: 20px;
+        border: none;
+        color: #fff;
+        font-size: 1.12rem;
+        transition: .3s ease-out;
+        &:hover {
+            background:  #e03336;
+        }
+    }
+    
+}

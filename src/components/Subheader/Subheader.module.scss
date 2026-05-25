@@ -1,0 +1,112 @@
+@import url(../../fonts/Stapel-Light/style.css);
+@import url(../../fonts/Stapel-Medium/style.css);
+
+.subheader {
+    display: flex;
+    height: 66px;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    .logo {
+        color: #28384E;
+        font-size: 16px;
+        font-family: 'stapel', sans-serif;
+        font-weight: 500;
+        margin-right: 40px;
+    }
+    &-services {
+        display: flex;
+        gap: 33px;
+        a {
+            text-decoration: none;
+        }
+        li {
+            color: #000000;
+            font-size: 12px;
+            font-family: 'stapel', sans-serif;
+            font-weight: 500;
+        }
+    }
+    .tel {
+        color: #000000;
+        font-size: 12px;
+        font-family: 'stapel', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+    }   
+    .email {
+        color: #000000;
+        font-size: 12px;
+        font-family: 'stapel', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+
+    }
+    .connect-mobile {
+        color: #FC3B3E;
+        font-size: 14px;
+        font-family: 'stapel', sans-serif;
+        font-weight: 500;
+    }
+    &-mobile {
+        display: none;
+
+    }
+   
+}
+
+@media (max-width: 950px) {
+    .logo {
+        font-size: 15px;
+    }
+    .email {
+        font-size: 11px;
+
+    }
+    .tel {
+        font-size: 11px;
+
+    }
+    .subheader-services {
+        gap: 10px;
+    }
+    .subheader {
+        gap: 55px;
+    }
+}
+
+@media (max-width: 850px) {
+    .email {
+        display: none;
+    }
+    .tel {
+        display: none;
+    }
+    .subheader-services {
+        display: none;
+    }
+    .subheader {
+        justify-content: space-between;
+        padding: 10px;
+
+    }
+    .logo-mobile {
+        font-size: 18px;
+
+    }
+    .tel-mobile {
+        font-size: 14px;
+        color: #000000;
+        font-family: 'stapel', sans-serif;
+        font-weight: 500;
+        text-decoration: none;
+
+    }
+    .subheader-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 66px;
+    }
+}

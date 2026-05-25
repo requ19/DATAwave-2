@@ -1,0 +1,50 @@
+.aboutinformation {
+  padding: 100px 0 90px;
+}
+.aboutinformation .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.aboutinformation__wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.aboutinformation__img {
+  width: 622px;
+  height: 340px;
+}
+.aboutinformation__img img {
+  border-radius: 12px;
+  width: 100%;
+}
+.aboutinformation__info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.aboutinformation__info_title {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 400;
+  margin-left: 22px;
+}
+.aboutinformation__info_desc {
+  color: #7A8698;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 20px;
+  width: 80%;
+}
+.aboutinformation__mission_title {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 400;
+}
+.aboutinformation__mission_desc {
+  color: #7A8698;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 30px;
+  width: 80%;
+}/*# sourceMappingURL=AboutInformation.module.css.map */

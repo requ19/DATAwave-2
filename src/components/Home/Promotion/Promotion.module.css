@@ -1,0 +1,32 @@
+.promotion {
+  padding: 50px 0 55px 0;
+}
+.promotion .container {
+  margin: auto;
+  max-width: 90.2%;
+}
+.promotion__title {
+  color: #000;
+  font-weight: 500;
+  font-size: 2rem;
+}
+.promotion__wrapper {
+  display: flex;
+  margin-top: 42px;
+  justify-content: space-between;
+}
+.promotion__card {
+  width: 372px;
+}
+.promotion__date {
+  color: #000;
+  font-size: 0.9rem;
+  font-weight: 100;
+  margin-top: 23px;
+}
+.promotion__descrition {
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 8px;
+}/*# sourceMappingURL=Promotion.module.css.map */

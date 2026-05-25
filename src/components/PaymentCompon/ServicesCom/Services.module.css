@@ -1,0 +1,28 @@
+.services {
+  padding: 63px 0 200px;
+}
+.services .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.services__title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+  text-align: center;
+}
+.services__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 160px;
+}
+.services__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services__card img {
+  margin-top: 70px;
+}/*# sourceMappingURL=Services.module.css.map */

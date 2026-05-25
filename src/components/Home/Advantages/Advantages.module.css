@@ -1,0 +1,30 @@
+.advantages .container {
+  margin: auto;
+  max-width: 90.2%;
+}
+.advantages__title {
+  color: #000;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.advantages__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 97px;
+  padding: 85px 0 60px 0;
+}
+.advantages__card {
+  position: relative;
+  width: 365px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 270px;
+  justify-content: center;
+}
+.advantages__card div {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}/*# sourceMappingURL=Advantages.module.css.map */

@@ -1,0 +1,108 @@
+@charset "UTF-8";
+.menu {
+  display: flex;
+  font-family: "SF Pro Display", sans-serif;
+}
+.menu-list {
+  display: flex;
+  gap: 30px;
+  padding: 14px 0px;
+  margin-right: 160px;
+}
+.menu-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+.menu-connect {
+  background-color: #FC3B3E;
+  height: 46px;
+  width: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  margin-right: 20px;
+  border: none;
+}
+.menu-lung {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 300;
+  margin-right: 20px;
+}
+.menu {
+  /* 4K и большие десктопы */
+}
+@media (min-width: 2560px) {
+  .menu {
+    /* Стили для разрешений от 2560px и выше */
+  }
+}
+.menu {
+  /* Широкие мониторы и десктопы */
+}
+@media (min-width: 1920px) and (max-width: 2559px) {
+  .menu {
+    /* Стили для разрешений 1920px - 2559px */
+  }
+}
+.menu {
+  /* Обычные десктопы */
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+  .menu {
+    /* Стили для разрешений 1280px - 1919px */
+  }
+}
+.menu {
+  /* Переход на крупные планшеты */
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .menu {
+    /* Стили для разрешений 1024px - 1279px */
+  }
+}
+.menu {
+  /* Портретная ориентация планшетов и небольшие ноутбуки */
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .menu {
+    /* Стили для разрешений 768px - 1023px */
+  }
+  .menu li a {
+    font-size: 12px;
+  }
+  .menu-list {
+    gap: 10px;
+  }
+}
+.menu {
+  /* Большие смартфоны в альбомной ориентации */
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .menu li a {
+    font-size: 12px;
+  }
+}
+.menu {
+  /* Средние смартфоны и крупные телефоны */
+}
+@media (min-width: 480px) and (max-width: 575px) {
+  .menu {
+    /* Стили для разрешений 480px - 575px */
+  }
+}
+.menu {
+  /* Маленькие смартфоны и небольшие экраны */
+}
+@media (max-width: 479px) {
+  .menu {
+    /* Стили для разрешений до 479px */
+  }
+}/*# sourceMappingURL=navigation.module.css.map */

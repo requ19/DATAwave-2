@@ -1,0 +1,38 @@
+.connect {
+  background-image: url("../../../images/CinemaCompon/Connect/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+.connect .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.connect__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.connect__title {
+  color: #fff;
+  font-size: 7rem;
+  font-weight: 500;
+  margin-top: 140px;
+}
+.connect__desc {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  width: clamp(20%, 20%, 2000px);
+  margin-top: 15px;
+}
+.connect__btn {
+  width: 240px;
+  height: 46px;
+  background: linear-gradient(#E31D2F, #EA1F32);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.25rem;
+  margin-top: 20px;
+}/*# sourceMappingURL=Connect.module.css.map */

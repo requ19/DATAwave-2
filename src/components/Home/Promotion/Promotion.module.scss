@@ -1,0 +1,35 @@
+.promotion {
+    padding: 50px 0 55px 0;
+    .container {
+        margin: auto;
+        max-width: 90.2%;
+    }
+    &__title {
+        color: #000;
+        font-weight: 500;
+        font-size: 2rem;
+    }
+    &__wrapper {
+        display: flex;
+        margin-top: 42px;
+        justify-content: space-between;
+    }
+    &__card {
+        width: 372px;
+    }
+    &__img {
+
+    }
+    &__date {
+        color: #000;
+        font-size: 0.9rem;
+        font-weight: 100;
+        margin-top: 23px;
+    }
+    &__descrition {
+        color: #000;
+        font-size: 1.25rem;
+        font-weight: 500;
+        margin-top: 8px;
+    }
+}

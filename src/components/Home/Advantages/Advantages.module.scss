@@ -1,0 +1,35 @@
+.advantages {
+    .container {
+        margin: auto;
+        max-width: 90.2%;
+    }
+    &__title {
+        color: #000;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 97px;
+        padding: 85px 0 60px 0 ;
+    }
+    &__card {
+        position: relative;
+        width: 365px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // background: red;
+        height: 270px;
+        justify-content: center ;
+        // gap: 35px;
+        div {
+            position: absolute;
+            bottom: 0;
+            // left: 0;
+            text-align: center;
+        }
+    }
+}

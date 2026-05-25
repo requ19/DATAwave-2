@@ -1,0 +1,55 @@
+.aboutinformation { 
+    padding: 100px 0 90px;
+    .container {
+        width: clamp(320px, 90.2%, 2000px);
+        margin: auto;
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    &__img {
+        width: 622px;
+        height: 340px;
+        img {
+            border-radius: 12px;
+            width: 100%;
+        }
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        &_title {
+            font-size: 2rem;
+            color: #000;
+            font-weight: 400;
+            margin-left: 22px;
+        }
+        &_desc {
+            color: #7A8698;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 20px;
+            width: 80%;
+        }
+    }
+    &__mission {
+        &_title {
+            font-size: 2rem;
+            color: #000;
+            font-weight: 400;
+        }
+        &_desc {
+            color: #7A8698;
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 30px;
+            width: 80%;
+        }
+    }
+    
+}
+

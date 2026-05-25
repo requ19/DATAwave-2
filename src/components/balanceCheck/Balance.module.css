@@ -1,0 +1,40 @@
+.balance {
+  background: linear-gradient(80deg, #FF1B56, #d1093e);
+}
+.balance__custom {
+  background: #ffffff;
+}
+.balance__container {
+  display: flex;
+  justify-content: center;
+  margin: 150px;
+  align-items: center;
+  flex-direction: column;
+}
+.balance__flex {
+  width: 700px;
+  height: 400px;
+  padding: 50px 20px;
+  background: #ffffff;
+  border-radius: 30px;
+  border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.balance__flex input {
+  background: #ffffff;
+  width: 80%;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid #000;
+  padding: 20px;
+  font-size: 1.2rem;
+  margin-top: 10%;
+}
+.balance__flex input::-moz-placeholder {
+  font-size: 1.2rem;
+}
+.balance__flex input::placeholder {
+  font-size: 1.2rem;
+}/*# sourceMappingURL=Balance.module.css.map */

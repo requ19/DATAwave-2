@@ -1,0 +1,70 @@
+.gray {
+  background: #F9F9F9;
+}
+
+.promotions {
+  padding: 105px 0 250px;
+}
+.promotions .container {
+  max-width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.promotions__title {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.promotions__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.promotions__card {
+  border: 1px solid #D9D9D9;
+  border-radius: 20px;
+  padding: 0 0 12px 0;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  margin-top: 45px;
+}
+.promotions__card_title {
+  font-size: 1.25rem;
+  color: #000;
+  font-size: 700;
+  margin-left: 43px;
+  margin-top: 18px;
+}
+.promotions__card_desc {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 5px;
+  margin-left: 43px;
+}
+.promotions__card_more {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+  gap: 50px;
+}
+.promotions__card_calendar {
+  margin-left: 43px;
+  width: 130px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px;
+  border: 1px solid #7A8698;
+  border-radius: 20px;
+}
+.promotions__card_calendar p {
+  font-size: 0.6rem;
+  color: #7A8698;
+  font-weight: 300;
+}
+.promotions__card_btn {
+  color: #000;
+  font-size: 0.9rem;
+  text-decoration: underline;
+}/*# sourceMappingURL=Promotions.module.css.map */

@@ -1,0 +1,27 @@
+.advantages {
+  padding: 0 0 77px;
+}
+.advantages .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.advantages__title {
+  font-size: 2rem;
+  color: #000;
+  font-weight: 500;
+}
+.advantages__subtitle {
+  color: #7A8698;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 37px;
+}
+.advantages__subtitle ul {
+  padding-left: 20px;
+}
+.advantages__subtitle ul li {
+  list-style: disc;
+}
+.advantages .custom_none {
+  display: none;
+}/*# sourceMappingURL=Advantages.module.css.map */

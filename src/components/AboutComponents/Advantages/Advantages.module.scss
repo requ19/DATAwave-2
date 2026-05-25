@@ -1,0 +1,27 @@
+.advantages {
+    padding:  0 0 77px;
+    .container {
+        width: clamp(320px, 90.2%, 2000px);
+        margin: auto;
+    }
+    &__title {
+        font-size: 2rem;
+        color: #000;
+        font-weight: 500;
+    }
+    &__subtitle {
+        color: #7A8698;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-top: 37px;
+        ul {
+            padding-left: 20px;
+            li {
+            list-style: disc;
+            }
+        }
+    }
+    .custom_none {
+        display: none;
+    }
+}

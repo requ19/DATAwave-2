@@ -1,0 +1,29 @@
+{
+  "accounts": [
+    {
+      "accountNumber": "100001",
+      "amount": 1250.50,
+      "currency": "KGS"
+    },
+    {
+      "accountNumber": "100002",
+      "amount": 9870.00,
+      "currency": "KGS"
+    },
+    {
+      "accountNumber": "100003",
+      "amount": 452.75,
+      "currency": "KGS"
+    },
+    {
+      "accountNumber": "100004",
+      "amount": 15000.00,
+      "currency": "KGS"
+    },
+    {
+      "accountNumber": "100005",
+      "amount": 320.10,
+      "currency": "KGS"
+    }
+  ]
+}

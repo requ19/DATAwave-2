@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.connect {
+  height: auto;
+  max-width: 100%;
+  background: url("../../../images/bg/bg-main.svg") no-repeat center center;
+  background-size: cover;
+  padding: 100px 0px;
+}
+.connect-title {
+  color: #fff;
+  font-family: "Stapel", sans-serif;
+  font-weight: 500;
+  font-size: 65px;
+  margin-left: 250px;
+}
+.connect-btn {
+  width: 280px;
+  height: 40px;
+  background: #ffc200;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  font-family: "Stapel", sans-serif;
+  font-size: 22px;
+  cursor: pointer;
+  margin-left: 250px;
+  margin-top: 25px;
+  transition: 0.3s ease-in-out;
+}
+.connect-btn:hover {
+  background: rgba(255, 196, 0, 0.9058823529);
+  transform: translate(-10px);
+}
+
+.features {
+  display: flex;
+  max-width: 1180px;
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: -1px 2px 5px 0px rgb(112, 112, 112);
+  border-radius: 0px 0px 5px 5px;
+  flex-wrap: wrap;
+}
+.features-btn {
+  display: flex;
+  max-height: 80px;
+  justify-content: center;
+  align-items: center;
+  padding: 27px 34px;
+  gap: 7px;
+  font-family: "Stapel", sans-serif;
+  font-size: 15px;
+}
+.features-btn p {
+  color: #7A8698;
+  font-size: 12px;
+}
+.features .btn1 {
+  border-right: 0.5px solid #E1E7EF;
+}
+.features .btn2 {
+  border-right: 0.5px solid #E1E7EF;
+}
+.features .btn3 {
+  border-right: 0.5px solid #E1E7EF;
+}
+
+/* 4K и большие десктопы */
+@media (min-width: 2560px) {
+  /* Стили для разрешений от 2560px и выше */
+}
+/* Широкие мониторы и десктопы */
+@media (min-width: 1920px) and (max-width: 2559px) {
+  /* Стили для разрешений 1920px - 2559px */
+}
+/* Обычные десктопы */
+@media (min-width: 1280px) and (max-width: 1919px) {
+  /* Стили для разрешений 1280px - 1919px */
+  .connect-title {
+    font-size: 60px;
+    margin-left: 200px;
+  }
+  .connect-btn {
+    margin-left: 200px;
+  }
+}
+/* Переход на крупные планшеты */
+@media (min-width: 1024px) and (max-width: 1279px) {
+  /* Стили для разрешений 1024px - 1279px */
+  .connect-title {
+    font-size: 55px;
+    margin-left: 100px;
+  }
+  .connect-btn {
+    margin-left: 100px;
+  }
+}
+/* Портретная ориентация планшетов и небольшие ноутбуки */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Стили для разрешений 768px - 1023px */
+  .connect-title {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  .connect-btn {
+    margin-left: 50px;
+  }
+}
+/* Большие смартфоны в альбомной ориентации */
+@media (min-width: 576px) and (max-width: 767px) {
+  .connect-title {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  .connect-btn {
+    margin-left: 50px;
+  }
+}
+/* Средние смартфоны и крупные телефоны */
+@media (min-width: 480px) and (max-width: 575px) {
+  /* Стили для разрешений 480px - 575px */
+  .connect-title {
+    font-size: 40px;
+    margin-left: 50px;
+  }
+  .connect-btn {
+    margin-left: 50px;
+  }
+}
+/* Маленькие смартфоны и небольшие экраны */
+@media (max-width: 479px) {
+  /* Стили для разрешений до 479px */
+  .connect-title {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .connect-btn {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 479px) {
+  .connect {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 50vh;
+  }
+}/*# sourceMappingURL=Main.module.css.map */

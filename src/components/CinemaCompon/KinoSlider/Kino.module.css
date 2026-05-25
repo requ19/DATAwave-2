@@ -1,0 +1,56 @@
+.kino {
+  padding: 0 0 260px;
+}
+.kino .container {
+  width: clamp(320px, 90.2%, 2000px);
+  margin: auto;
+}
+.kino__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.kino__title {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: 500;
+  text-align: center;
+}
+.kino__card {
+  width: 470px;
+  height: 590px;
+  border-radius: 15px;
+  border: 1px solid #D9D9D9;
+  box-shadow: 0 0 2px 1px rgb(165, 165, 165);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 57px;
+}
+.kino__card_title {
+  font-size: 1.25rem;
+  color: #000;
+  font-weight: 500;
+  margin-top: 70px;
+}
+.kino__card_desc {
+  color: #FC3B3E;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 27px;
+  text-align: center;
+}
+.kino__card img {
+  margin-top: 43px;
+}
+@media (max-width: 1600px) {
+  .kino__card {
+    width: 380px;
+    height: 580px;
+  }
+}
+@media (max-width: 1350px) {
+  .kino__card {
+    width: 330px;
+    height: 580px;
+  }
+}/*# sourceMappingURL=Kino.module.css.map */

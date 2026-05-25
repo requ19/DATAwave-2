@@ -1,0 +1,119 @@
+.services .container {
+  margin: 0 auto;
+  max-width: 90.2%;
+}
+.services__title {
+  font-weight: 500;
+  font-size: 32px;
+  color: #000;
+  font-family: "Stapel", sans-serif;
+}
+.services .tvinfo {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+.services .tvinfo__zor {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  font-family: "Stapel", sans-serif;
+  padding: 7px;
+  cursor: pointer;
+}
+.services .tvinfo__cinema {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  font-family: "Stapel", sans-serif;
+  padding: 7px;
+  cursor: pointer;
+}
+.services .tvinfo__support {
+  font-weight: 500;
+  font-size: 16px;
+  color: #000;
+  font-family: "Stapel", sans-serif;
+  cursor: pointer;
+  padding: 7px;
+}
+.services .tvinfo__active {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Stapel", sans-serif;
+  background: #28384E;
+  border-radius: 10px;
+}
+.services__posters {
+  display: flex;
+  padding: 50px 0 50px 0;
+}
+.services__poster {
+  display: flex;
+  position: relative;
+  z-index: 2;
+  background: #FF1B55;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  width: 100%;
+  padding: 56px 72px;
+}
+.services__poster_img1 {
+  display: block;
+  border-radius: 20px;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+}
+.services__poster_img2 {
+  display: block;
+  border-radius: 20px;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+}
+.services__poster_img3 {
+  display: block;
+  border-radius: 20px;
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  height: 100%;
+}
+.services__poster_title {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 500;
+}
+.services__poster_description {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  width: 70%;
+  margin-top: 23px;
+}
+.services__poster_btn {
+  width: 210px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  background: #28384E;
+  border: none;
+  border-radius: 15px;
+  transition: 0.2s ease-in;
+  margin-top: 50px;
+}
+.services__poster_btn:hover {
+  background: #3c4d64;
+}/*# sourceMappingURL=Services.module.css.map */

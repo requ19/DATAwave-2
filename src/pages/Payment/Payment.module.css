@@ -1,0 +1,69 @@
+@charset "UTF-8";
+.payment_bg {
+  background-image: url("../../images/PaymentCompon/bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+}
+
+/* ── Online Payment Section ───────────────────────────────── */
+.onlinePay {
+  padding: 60px 0;
+  background: #f8f9fa;
+}
+.onlinePay .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.onlinePay__title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2c3e50;
+  text-align: center;
+}
+.onlinePay__desc {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  max-width: 480px;
+}
+.onlinePay__btn {
+  padding: 14px 48px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 8px;
+}
+.onlinePay__btn:hover {
+  background: #2980b9;
+}
+.onlinePay__form {
+  width: 100%;
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.onlinePay__cancel {
+  background: transparent;
+  border: none;
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: underline;
+}
+.onlinePay__cancel:hover {
+  color: #555;
+}/*# sourceMappingURL=Payment.module.css.map */
